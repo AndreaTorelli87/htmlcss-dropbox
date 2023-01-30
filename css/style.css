@@ -26,7 +26,11 @@
 
 .button-white{
    padding: 10px;
-  border: solid 1px black;
+   border: solid 1px black;
+}
+
+a{
+   text-decoration: none;
 }
 
 
@@ -34,7 +38,26 @@
 /* ----- TAG SPECIFICI ----- */
 /* ----- HEADER ----- */
 
+header{
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: 5;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
 
+.ul-nav{
+   display: flex;
+   align-items: center;
+   list-style: none;
+}
+
+.ul-nav a{
+   padding: 20px;
+}
 
 
 

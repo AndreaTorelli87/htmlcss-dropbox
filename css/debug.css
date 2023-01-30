@@ -1,6 +1,6 @@
 /* ----- TAG RIUTILIZZABILI ----- */
 
-.border{
+div,header{
    border: solid 1px black;
 }
 
@@ -9,6 +9,15 @@
 /* ----- TAG SPECIFICI ----- */
 /* ----- HEADER ----- */
 
+
+header{
+   background-color: yellow;
+   height: 60px;
+}
+
+header div{
+   background-color: green;
+}
 
 
 
