@@ -67,7 +67,7 @@ header{
 /* ----- PRIMA SEZIONE ----- */
 
 
-.prima-sezione-main{
+.prima-sezione-main,.sesta-sezione-main{
    background-color: #B4D0E7;
 }
 
@@ -114,9 +114,34 @@ h1{
 
 
 
+/* ----- QUINTA SEZIONE ----- */
+
+.quinta-sezione-main{
+   width: 100vw;
+   height: calc(100vw / 3);
+   display: flex;
+}
 
 
 
+.contenitore-sx,.contenitore-dx,.contenitore-centrale{
+   display: flex;
+   flex-wrap: wrap;
+   width: calc(100% / 3);
+}
+
+.sponsor{
+  height: 50%;
+  width: 50%;
+}
+
+/* ----- SETTIMA SEZIONE ----- */
+
+.FAQ{
+   line-height: 70px;
+   display: flex;
+   justify-content: space-between;
+}
 
 
 
