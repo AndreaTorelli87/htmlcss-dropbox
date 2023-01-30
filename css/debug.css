@@ -30,6 +30,10 @@ header div{
    background-color: antiquewhite;
 }
 
+.container-small{
+   background-color: tomato;
+}
+
 .colonne{
    background-color: coral;
 }

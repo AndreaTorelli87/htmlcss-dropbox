@@ -29,6 +29,10 @@
    border: solid 1px black;
 }
 
+.button-white a{
+   color: black;
+}
+
 a{
    text-decoration: none;
 }
