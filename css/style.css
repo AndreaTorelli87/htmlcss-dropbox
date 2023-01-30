@@ -1,0 +1,55 @@
+/* ----- TAG RIUTILIZZABILI ----- */
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.layout-width{
+   max-width: 1170px;
+   margin: 0 auto;
+}
+
+.flex-center{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.button-blu{
+   padding: 10px;
+   background-color: #0061FF;
+   color: white;
+}
+
+.button-white{
+   padding: 10px;
+  border: solid 1px black;
+}
+
+
+
+/* ----- TAG SPECIFICI ----- */
+/* ----- HEADER ----- */
+
+
+
+
+
+
+/* ----- MAIN ----- */
+
+
+
+
+
+
+
+
+/* ----- FOOTER ----- */
+
+footer{
+   color: white;
+}
