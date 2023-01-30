@@ -60,6 +60,8 @@ header{
 }
 
 /* ----- MAIN ----- */
+/* ----- PRIMA SEZIONE ----- */
+
 
 .prima-sezione-main{
    background-color: #B4D0E7;
@@ -77,10 +79,32 @@ h1{
 
 .testo{
    width: 30%;
+   display: inline-block;
 }
 
+.immagine{
+   display: inline-block;
+}
 
+/* ----- SECONDA SEZIONE ----- */
 
+.container-small{
+   width: 60vw;
+   margin: auto;
+}
+
+.colonne{
+   display: flex;
+   justify-content: space-between;
+}
+
+.colonna{
+   width: calc(100% / 3 - 20px);
+}
+
+.fa-check{
+   color: #0061FF;
+}
 
 
 
