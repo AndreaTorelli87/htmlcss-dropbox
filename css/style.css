@@ -26,8 +26,9 @@
 }
 
 .button-white{
-   padding: 5px;
+   padding: 10px;
    border: solid 1px black;
+   display: inline-block;
 }
 
 .button-white a{
@@ -59,6 +60,7 @@ h5{
 header{
    position: fixed;
    width: 100%;
+   height: 60px;
    top: 0;
    left: 0;
    z-index: 5;
@@ -104,12 +106,12 @@ h1{
    font-weight: 800;
 }
 
-.testo-img{
+.prima-sezione-main .testo-img{
    display: flex;
    height: 375px;
 }
 
-.didascalia{
+.prima-sezione-main .didascalia{
    width: 55%;
    display: inline-block;
 }
@@ -188,6 +190,38 @@ h1{
    color: #0061FF;
 }
 
+/* ----- TERZA SEZIONE ----- */
+
+.terza-sezione-main .testo-img{
+   display: flex;
+   align-content: flex-start;
+   margin: 100px 0 130px;
+}
+
+.terza-sezione-main .didascalia{
+   padding: 80px 40px;
+   width: 35%;
+}
+
+.terza-sezione-main img{
+   width: 68%;
+}
+
+.terza-sezione-main .button-white{
+   margin-top: 30px;
+}
+
+/* ----- QUARTA SEZIONE ----- */
+
+.colonna{
+   padding: 0 0 30px;
+}
+
+.colonna img{
+   width: 100%;
+}
+
+
 
 
 
@@ -199,8 +233,6 @@ h1{
    display: flex;
 }
 
-
-
 .contenitore-sx,.contenitore-dx,.contenitore-centrale{
    display: flex;
    flex-wrap: wrap;
@@ -211,6 +243,24 @@ h1{
   height: 50%;
   width: 50%;
 }
+
+/* ----- SESTA SEZIONE ----- */
+
+.sesta-sezione-main .container-small{
+   display: flex;
+   justify-content: space-between;
+   margin: 100px auto;
+}
+
+.sesta-sezione-main h2{
+   width: 42%;
+}
+
+.sesta-sezione-main .button-white{
+   height: 45px;
+   width: 260px;
+}
+
 
 /* ----- SETTIMA SEZIONE ----- */
 
