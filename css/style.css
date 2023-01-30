@@ -59,10 +59,31 @@ header{
    padding: 20px;
 }
 
-
-
-
 /* ----- MAIN ----- */
+
+.prima-sezione-main{
+   background-color: #B4D0E7;
+}
+
+.container-big{
+   width: 70vw;
+   margin: auto;
+   margin-top: 80px;
+}
+
+h1{
+   font-size: 90px;
+}
+
+.testo{
+   width: 30%;
+}
+
+
+
+
+
+
 
 
 

@@ -1,6 +1,6 @@
 /* ----- TAG RIUTILIZZABILI ----- */
 
-div,header{
+div,header,section{
    border: solid 1px black;
 }
 
@@ -19,11 +19,21 @@ header div{
    background-color: green;
 }
 
-
-
-
-
 /* ----- MAIN ----- */
+
+.container-big{
+   height: 600px;
+   background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
 
 
 
