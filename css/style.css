@@ -22,10 +22,11 @@
    padding: 10px;
    background-color: #0061FF;
    color: white;
+   display: inline-block;
 }
 
 .button-white{
-   padding: 10px;
+   padding: 5px;
    border: solid 1px black;
 }
 
@@ -51,16 +52,24 @@ header{
    display: flex;
    align-items: center;
    justify-content: space-between;
+   background-color: white;
 }
 
 .ul-nav{
    display: flex;
    align-items: center;
    list-style: none;
+   margin: 0 10px;
 }
 
 .ul-nav a{
-   padding: 20px;
+   padding: 0 20px;
+   color: black;
+}
+
+.button-blu a{
+   color:white;
+   padding: 5px;
 }
 
 /* ----- MAIN ----- */
@@ -73,24 +82,51 @@ header{
 
 .container-big{
    width: 70vw;
-   margin: auto;
-   margin-top: 80px;
+   margin: 60px auto 0;
 }
 
 h1{
-   font-size: 90px;
+   font-size: 84px;
+   margin: 40px 0;
+   font-weight: 800;
 }
 
-.testo{
-   width: 30%;
+.testo-img{
+   display: flex;
+   height: 375px;
+}
+
+.didascalia{
+   width: 55%;
    display: inline-block;
+}
+
+.testo-img .button-blu{
+   margin: 20px 0;
+}
+
+#annulla{
+   margin: 20px 0 40px;
+}
+
+.fa-arrow-down{
+   font-size: 60px;
+   color: black;
 }
 
 .immagine{
    display: inline-block;
 }
 
+.immagine img{
+   width: 83%;
+}
+
 /* ----- SECONDA SEZIONE ----- */
+
+.seconda-sezione-main{
+   margin: 100px 0;
+}
 
 .container-small{
    width: 60vw;

@@ -1,6 +1,6 @@
 /* ----- TAG RIUTILIZZABILI ----- */
 
-div,header,section{
+.seconda-sezione-main div,section{
    border: solid 1px black;
 }
 
@@ -11,20 +11,14 @@ div,header,section{
 
 
 header{
-   background-color: yellow;
    height: 60px;
 }
 
 header div{
-   background-color: green;
 }
 
 /* ----- MAIN ----- */
 
-.container-big{
-   height: 600px;
-   background-color: aqua;
-}
 
 .seconda-sezione-main{
    background-color: antiquewhite;
