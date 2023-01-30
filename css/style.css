@@ -149,5 +149,24 @@ h1{
 /* ----- FOOTER ----- */
 
 footer{
+   background-color: black;
+}
+
+.footer-top{
+   display: flex;
+}
+
+.lista{
+   list-style: none;
+   width: calc(100% / 6);
+}
+
+footer a{
    color: white;
+}
+
+.primo{
+   color: white;
+   font-size: 20px;
+   font-weight: 700;
 }
