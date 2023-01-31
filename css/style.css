@@ -58,7 +58,14 @@ h5{
    padding-bottom: 10px;
 }
 
+hr{
+   margin: 50px 0;
+   width: 70px;
+}
 
+.border-gray{
+   border:solid 1px lightgray;
+}
 
 
 /* ----- TAG SPECIFICI ----- */
@@ -82,16 +89,17 @@ header{
    align-items: center;
    list-style: none;
    margin: 0 10px;
+   line-height: 10px;
 }
 
 .ul-nav a{
-   padding: 0 20px;
+   padding: 0 15px;
    color: black;
 }
 
 .button-blu a{
    color:white;
-   padding: 5px;
+   /* padding: 5px; */
 }
 
 /* ----- MAIN ----- */
@@ -162,17 +170,17 @@ h1{
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
+   margin-bottom: 40px;
 }
 
 .colonna{
    width: calc(100% / 3 - 30px);
-   border: solid 1px grey;
 }
 
 .intestazione-colonna{
    text-align: center;
    padding: 10px;
-   border-bottom: solid 1px grey;
+   border-bottom: solid 1px lightgray;
 }
 
 .corpo-colonna{
@@ -199,6 +207,22 @@ h1{
    height: 200px;
    padding: 10px 0;
 }
+
+.seconda-sezione-main .button-blu{
+   width: 260px;
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+.grande{
+   display: flex;
+   align-items: flex-start;
+}
+
+.grande p{
+   padding-top: 50px;
+}
+
 
 
 
