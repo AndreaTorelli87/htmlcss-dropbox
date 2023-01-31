@@ -46,6 +46,7 @@ a{
 
 h2{
    font-size: 40px;
+   margin: 50px 0;
 }
 
 h3{
@@ -158,10 +159,6 @@ h1{
    margin: 90px 0;
 }
 
-.seconda-sezione-main h2{
-   margin: 50px 0;
-}
-
 .selettori{
    margin: 40px 0;
 }
@@ -223,13 +220,6 @@ h1{
    padding-top: 50px;
 }
 
-
-
-
-
-
-
-
 .fa-check{
    color: #0061FF;
 }
@@ -243,12 +233,16 @@ h1{
 }
 
 .terza-sezione-main .didascalia{
-   padding: 80px 40px;
+   padding: 50px 30px;
    width: 35%;
 }
 
-.terza-sezione-main img{
+.terza-sezione-main .partner{
    width: 68%;
+}
+
+.partner img{
+   width: 100%;
 }
 
 .terza-sezione-main .button-white{
@@ -265,9 +259,15 @@ h1{
    width: 100%;
 }
 
+/* ----- SEZIONE CUSCINETTO ----- */
 
+.sezione-cuscinetto{
+   margin: 70px auto 150px;
+}
 
-
+.sezione-cuscinetto h2{
+   width: 60%;
+}
 
 /* ----- QUINTA SEZIONE ----- */
 
