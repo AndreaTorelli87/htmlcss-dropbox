@@ -386,6 +386,7 @@ h1{
 
 footer{
    background-color: black;
+   padding: 10px 0 40px;
 }
 
 .footer-top{
@@ -401,8 +402,13 @@ footer a{
    color: white;
 }
 
+footer li{
+   padding: 5px 0;
+}
+
 .primo{
    color: white;
    font-size: 20px;
    font-weight: 700;
+   margin-bottom: 20px;
 }
