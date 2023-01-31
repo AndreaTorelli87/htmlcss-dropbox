@@ -39,16 +39,23 @@ a{
    text-decoration: none;
 }
 
+.container-small{
+   width: 55vw;
+   margin: auto;
+}
+
 h2{
    font-size: 40px;
 }
 
 h3{
    font-size: 30px;
+   padding-bottom: 15px;
 }
 
 h5{
    font-size: 20px;
+   padding-bottom: 10px;
 }
 
 
@@ -143,11 +150,6 @@ h1{
    margin: 90px 0;
 }
 
-.container-small{
-   width: 60vw;
-   margin: auto;
-}
-
 .seconda-sezione-main h2{
    margin: 50px 0;
 }
@@ -164,11 +166,13 @@ h1{
 
 .colonna{
    width: calc(100% / 3 - 30px);
+   border: solid 1px grey;
 }
 
 .intestazione-colonna{
    text-align: center;
    padding: 10px;
+   border-bottom: solid 1px grey;
 }
 
 .corpo-colonna{
@@ -179,6 +183,22 @@ h1{
    color: gray;
 }
 
+.indent{
+   text-indent: -20px;
+}
+
+.a-capo{
+   padding-left: 20px;
+}
+
+.corpo-colonna div{
+   margin: 15px 0;
+}
+
+.caratteristiche-piano{
+   height: 200px;
+   padding: 10px 0;
+}
 
 
 
