@@ -31,6 +31,10 @@
    display: inline-block;
 }
 
+.button-white:hover,.button-blu:hover{
+   opacity: 0.8;
+}
+
 .button-white a{
    color: black;
 }
@@ -93,8 +97,12 @@ header{
 }
 
 .ul-nav a{
-   padding: 0 15px;
+   padding: 0 15px 24px;
    color: black;
+}
+
+.underline:hover{
+   border-bottom: solid 2px greenyellow;
 }
 
 .button-blu a{
@@ -293,10 +301,9 @@ h1{
 .sponsor{
   height: 50%;
   width: 50%;
-  line-height: 200px;
   display: flex;
-  align-items: center;
   justify-content: center;
+   align-items: center;
 }
 
 .sponsor img{
@@ -350,6 +357,10 @@ h1{
    background-color: #FFD830;
 }
 
+.sponsor:hover{
+   border: solid 10px #F5F5F580;
+}
+
 /* ----- SESTA SEZIONE ----- */
 
 .sesta-sezione-main{
@@ -387,10 +398,11 @@ h1{
 }
 
 .FAQ{
-   line-height: 100px;
+   height: 100%;
    display: flex;
    justify-content: space-between;
    align-items: center;
+   flex-wrap: wrap;
 }
 
 .container-faq hr{
@@ -400,7 +412,21 @@ h1{
 
 h6{
    font-size: 15px;
+   line-height: 100px;
 }
+
+.hidden{
+   display: none;
+   padding: 0 20px 25px 0;
+}
+
+.FAQ:hover .hidden{
+   display: block;
+}
+
+/* .fa-chevron-up{
+   display: none;
+} */
 
 
 
